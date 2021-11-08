@@ -32,6 +32,8 @@ export function useAllV3Ticks(
   const poolAddress =
     currencyA && currencyB && feeAmount ? Pool.getAddress(currencyA?.wrapped, currencyB?.wrapped, feeAmount) : undefined
 
+  console.log(currencyA?.wrapped, currencyB?.wrapped, feeAmount, poolAddress)
+
   const { isLoading, isError, error, isUninitialized, data } = useAllV3TicksQuery(
     poolAddress ? { poolAddress: poolAddress?.toLowerCase(), skip: 0 } : skipToken,
     {
