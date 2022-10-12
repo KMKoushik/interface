@@ -43,17 +43,18 @@ export const ARGENT_WALLET_DETECTOR_ADDRESS: AddressMap = {
   [SupportedChainId.MAINNET]: '0xeca4B0bDBf7c55E9b7925919d03CbF8Dc82537E8',
 }
 
-export const V3_CORE_FACTORY_ADDRESSES: AddressMap = constructSameAddressMap(
-  '0xa9C2f675FF8290494675dF5CFc2733319EaeeFDc',
-  [SupportedChainId.ROPSTEN]
-)
-export const QUOTER_ADDRESSES: AddressMap = constructSameAddressMap('0x267aEB76BEb6DC7Ab0D88FeEaC8A948e237e2d69', [
-  SupportedChainId.ROPSTEN,
-])
-export const NONFUNGIBLE_POSITION_MANAGER_ADDRESSES: AddressMap = constructSameAddressMap(
-  '0x8c7C1F786dA4DEe7d4bB49697A9B0C0c8Fb328e0',
-  [SupportedChainId.ROPSTEN]
-)
+export const V3_CORE_FACTORY_ADDRESSES: AddressMap = {
+  ...constructSameAddressMap('0xa9C2f675FF8290494675dF5CFc2733319EaeeFDc', [SupportedChainId.ROPSTEN]),
+  [SupportedChainId.GOERLI]: '0x2Db05f50645a7EAEd686bdf64DE3F90Fde2041b3',
+}
+export const QUOTER_ADDRESSES: AddressMap = {
+  ...constructSameAddressMap('0x267aEB76BEb6DC7Ab0D88FeEaC8A948e237e2d69', [SupportedChainId.ROPSTEN]),
+  [SupportedChainId.GOERLI]: '0x5D9D69aF49130fEb2511fdFc1A55B5746897BdE4',
+}
+export const NONFUNGIBLE_POSITION_MANAGER_ADDRESSES: AddressMap = {
+  ...constructSameAddressMap('0x8c7C1F786dA4DEe7d4bB49697A9B0C0c8Fb328e0', [SupportedChainId.ROPSTEN]),
+  [SupportedChainId.GOERLI]: '0xa22acAd8494B641D374f510CD88DeacABe24B0F9',
+}
 export const ENS_REGISTRAR_ADDRESSES: AddressMap = {
   [SupportedChainId.MAINNET]: '0x00000000000C2E074eC69A0dFb2997BA6C7d2e1e',
   [SupportedChainId.ROPSTEN]: '0x00000000000C2E074eC69A0dFb2997BA6C7d2e1e',
@@ -63,9 +64,10 @@ export const ENS_REGISTRAR_ADDRESSES: AddressMap = {
 export const SOCKS_CONTROLLER_ADDRESSES: AddressMap = {
   [SupportedChainId.MAINNET]: '0x65770b5283117639760beA3F867b69b3697a91dd',
 }
-export const SWAP_ROUTER_ADDRESSES: AddressMap = constructSameAddressMap('0x528a19A3e88861E7298C86fE5490B8Ec007a4204', [
-  SupportedChainId.ROPSTEN,
-])
+export const SWAP_ROUTER_ADDRESSES: AddressMap = {
+  ...constructSameAddressMap('0x528a19A3e88861E7298C86fE5490B8Ec007a4204', [SupportedChainId.ROPSTEN]),
+  [SupportedChainId.GOERLI]: '0x200775Be10EA5dCee478C193E6B6E66E13d878C0',
+}
 export const V3_MIGRATOR_ADDRESSES: AddressMap = constructSameAddressMap('0xA5644E29708357803b5A882D272c41cC0dF92B34', [
   SupportedChainId.ARBITRUM_ONE,
   SupportedChainId.ARBITRUM_RINKEBY,

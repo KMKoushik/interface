@@ -4666,9 +4666,9 @@
     base64-sol "1.0.1"
     hardhat-watcher "^2.1.1"
 
-"@uniswap/v3-sdk@git+https://github.com/KMKoushik/v3-sdk.git#v3.6.4":
+"@uniswap/v3-sdk@git+https://github.com/KMKoushik/v3-sdk.git#v3.6.4-goreli":
   version "3.6.2"
-  resolved "git+https://github.com/KMKoushik/v3-sdk.git#796e6407d2d0bfd3386237dfc32c74500de82e85"
+  resolved "git+https://github.com/KMKoushik/v3-sdk.git#9a40407e13b483b10ab34212443a19f29f02ff77"
   dependencies:
     "@ethersproject/abi" "^5.0.12"
     "@ethersproject/solidity" "^5.0.9"

@@ -14,6 +14,7 @@ const CHAIN_SUBGRAPH_URL: Record<number, string> = {
 
   [SupportedChainId.OPTIMISM]: 'https://api.thegraph.com/subgraphs/name/ianlapham/uniswap-optimism-dev',
   [SupportedChainId.ROPSTEN]: 'https://api.thegraph.com/subgraphs/name/kmkoushik/uniswap-v3-ropsten',
+  [SupportedChainId.GOERLI]: 'https://api.thegraph.com/subgraphs/name/haythem96/uniswap-v3-goerli',
 }
 
 export const api = createApi({
