@@ -45,15 +45,15 @@ export const ARGENT_WALLET_DETECTOR_ADDRESS: AddressMap = {
 
 export const V3_CORE_FACTORY_ADDRESSES: AddressMap = {
   ...constructSameAddressMap('0xa9C2f675FF8290494675dF5CFc2733319EaeeFDc', [SupportedChainId.ROPSTEN]),
-  [SupportedChainId.GOERLI]: '0x2Db05f50645a7EAEd686bdf64DE3F90Fde2041b3',
+  [SupportedChainId.GOERLI]: '0x55c0cef3cc64f511c34b18c720bcf38fec6c6ffa',
 }
 export const QUOTER_ADDRESSES: AddressMap = {
   ...constructSameAddressMap('0x267aEB76BEb6DC7Ab0D88FeEaC8A948e237e2d69', [SupportedChainId.ROPSTEN]),
-  [SupportedChainId.GOERLI]: '0x5D9D69aF49130fEb2511fdFc1A55B5746897BdE4',
+  [SupportedChainId.GOERLI]: '0x759442726c06f7938cd2cb63ac9ae373dc1decf6',
 }
 export const NONFUNGIBLE_POSITION_MANAGER_ADDRESSES: AddressMap = {
   ...constructSameAddressMap('0x8c7C1F786dA4DEe7d4bB49697A9B0C0c8Fb328e0', [SupportedChainId.ROPSTEN]),
-  [SupportedChainId.GOERLI]: '0xa22acAd8494B641D374f510CD88DeacABe24B0F9',
+  [SupportedChainId.GOERLI]: '0x24a66308bab3bebc2821480ada395bf1c4ff8bf2',
 }
 export const ENS_REGISTRAR_ADDRESSES: AddressMap = {
   [SupportedChainId.MAINNET]: '0x00000000000C2E074eC69A0dFb2997BA6C7d2e1e',
@@ -66,7 +66,7 @@ export const SOCKS_CONTROLLER_ADDRESSES: AddressMap = {
 }
 export const SWAP_ROUTER_ADDRESSES: AddressMap = {
   ...constructSameAddressMap('0x528a19A3e88861E7298C86fE5490B8Ec007a4204', [SupportedChainId.ROPSTEN]),
-  [SupportedChainId.GOERLI]: '0x200775Be10EA5dCee478C193E6B6E66E13d878C0',
+  [SupportedChainId.GOERLI]: '0x833a158da5cebc44901211427e9df936023ec0d3',
 }
 export const V3_MIGRATOR_ADDRESSES: AddressMap = constructSameAddressMap('0xA5644E29708357803b5A882D272c41cC0dF92B34', [
   SupportedChainId.ARBITRUM_ONE,
